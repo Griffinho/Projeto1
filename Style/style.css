@@ -1,0 +1,488 @@
+/* RESET  */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #3337;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+/* BODY  */
+.fundo{
+    background-color: #3b5998;
+}
+/* CABEÇALHO */
+.cabecalho {
+    width: 100%;
+    float: center;
+    padding: 0 8%;
+    background-color: #f3f3f3;
+
+}
+#logogif{
+   float: center;
+   width: 40%;
+   margin-left: 400px;
+}
+
+.logo a {
+    width: 200px ;
+    height: 200px;
+    float: center;
+    background-image: url(../imagem/Jehm.gif);
+    font-size: 0;
+    border-radius: 20px;  
+}
+
+/* MENU  */
+.menu {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 30px 8%;
+
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    transition: 1.0;
+    transform: translate(10px);
+    color: #fff;
+    font-size: 1.1em;
+    
+}
+
+/* SOCIAL-ICONS */
+.social-icons {
+    float: right;
+    margin-right: 55px;
+    display: inline-flex;
+    display: block;
+
+}
+
+.social-icons a {
+    color: #fff;
+    float: left;
+    margin-left: 20px;
+   
+}
+
+.social-icons .fa-facebook:hover {
+    color: #3b5998
+}
+
+.social-icons .fa-twitter:hover {
+    color: cyan
+}
+
+.social-icons .fa-instagram:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-icons .fa-envelope:hover {
+    color: rgb(80, 255, 118)
+}
+
+.social-icons .fa-google:hover {
+    color: yellow
+}
+
+.social-icons .fa-youtube:hover {
+    color: red
+}
+
+.social-icons .fa-linkedin:hover {
+    color: blue
+}
+
+/* PRODUTOS */
+
+.produtos{
+    color: white;
+    width: 100%;
+    margin:0 auto;
+    padding: 50px 0;
+    
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos h3{
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+.produtos p{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.produtos li:hover{
+    transition: 0.5;
+    transform: translate(10px);
+    box-shadow: #777 1px 1px 26px;
+    border: #fff;
+    border-radius: 15px;
+}
+
+.produtos .preços {
+    color: rgb(56, 241, 10);
+}
+.produtos .preçocortado{
+    color: red;
+}
+.produtos .botão{
+    width: 50%;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(69, 177, 43);
+    cursor: pointer;
+}
+.produtos .botão:hover{
+    background-color: rgb(233, 25, 25);
+}
+
+/* SERVIÇOS */
+
+.principal h1{
+    width: 100%;
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+.Assistencia  h2{
+    width: 100%;
+    color:#fff;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 15px;
+}
+.Assistencia {
+    color: white;
+    width: 100%;
+    margin:0 auto;
+    padding: 50px 0;
+}
+.Assistencia li{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.Assistencia .botão{
+    width: 30%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.Assistencia .botão:hover{
+    background-color: #2d2dddf6;
+    
+}
+
+/* SOBRE */
+.principal2 {
+    width: 100%;
+    float: left;
+    padding: 16px 8%;
+    background-color: #3c3c3ff6;
+}
+
+.sobre {
+    width: 45%;
+    float: left;
+    padding: 120px 20px 20px 0;
+}
+
+.sobre h2 {
+    margin-bottom: 15px;
+}
+
+.sobre p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.sobre h2 {
+    font-family: 'Franklin Gothic';
+    color: white;
+    font-size: 40px;
+    margin-top: 60px;
+}
+/* DIFERENCIAIS */
+#diferenciais {
+    width: 100%;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.valoresjehm .titu {
+    font-size: 30px;
+    padding-left: 30%;
+    padding: 3%;
+    margin-top: 15%;
+    width: 100%;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.valoresjehm .texto {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 300px;
+    width: 100%;
+}
+
+#textovideozao {
+    font-size: 30px;
+    margin-top: 20%;
+    padding-left: 5%;
+    width: 100%;
+    margin-left: 300px;
+    text-align: center;
+}
+
+/* ONDE ESTAMOS - SIDEBAR*/
+.onde-estamos {
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.onde-estamos h2 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.onde-estamos iframe {
+    width: 100%;
+    height: 210px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.onde-estamos li {
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* EQUIPE - IMAGEM */
+.equipe {
+    float: right;
+    padding-left: 10%;
+    margin-top: 100px;
+    width: 600px;
+}
+.newsletter input{
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: initial;
+    color: #fff;
+}
+
+/* videozao */
+#videozao {
+    width: 870px;
+    height: 600px;
+    border-radius: 10px;
+    padding-left: 55%;
+    margin-bottom: 40%;
+}
+
+#fundoprodutos {
+    background-image: url(../imagem/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+
+#fundosobre {
+    background-image: url(../imagem/fundo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left left;
+}
+
+/* CONTATO*/
+.nome{
+    border-radius: 3px;
+}
+
+.email{
+    border-radius: 3px;
+}
+
+.caixademensagem{
+    width: 100%;
+    border-radius: 4px;
+    height: 150px;
+}
+.botao{
+    border-radius: 3px;
+    width: 55px;
+    background-color: rgb(253, 253, 253);
+}
+
+.letras{
+    color: #ffffff;
+}
+.contato{
+    width: 50%;
+    float: left;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+    border-radius: 10px;
+
+}
+.contato input{
+    border: 2px solid #111;
+}
+.contato label{
+    color: #111;
+}
+.titulo1{
+    padding-left: 60px;
+    padding-top: 10px;
+    color: #111;
+    
+}
+
+.onde-estamos1 {
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.onde-estamos1 h2 {
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+.onde-estamos1 iframe {
+    width: 100%;
+    height: 210px;
+    margin: 20px 0 20px 0;
+    border-radius: 10px;
+}
+
+.onde-estamos1 li {
+    color: #1f9989;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* NEWSLETTER  */
+.newsletter {
+    width: 100%;
+    float: left;
+    background-color: #2d2dddf6;
+    padding: 50px 8%;
+
+}
+
+.newsletter h3 {
+    font-size: 1.8em;
+    color: #fff;
+
+}
+.newsletter p{
+    font-size: 1.2em;
+    color:#111;
+    
+}
+.newsletter form{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.newsletter button{
+    width: 15%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    float: right;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: initial;
+    color: #fff;
+}
+
+.rodape{
+    width: 100%;
+    background-color: #323235f6;
+    background-color: #111;
+    padding: 25px 8%;
+    float: left;
+    
+}
+.rodape p{
+    color: #fff;
+}
